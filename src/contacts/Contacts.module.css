@@ -1,0 +1,41 @@
+.mainBlock {
+    height: 100vh;
+    background-color: cornflowerblue;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid;
+    width: 60%;
+    height: 400px;
+}
+
+.form input{
+    width: 100%;
+    height: 10%;
+}
+
+.form textarea{
+    width: 100%;
+    height: 60%;
+}
+
+.container button{
+    width: 30%;
+    height: 3%;
+}
+
+@media only screen and (max-width: 568px) {
+    .container{
+        justify-content: space-around;
+    }
+}

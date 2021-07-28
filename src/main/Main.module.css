@@ -1,0 +1,22 @@
+.mainBlock {
+    height: 100vh;
+    background-color: cadetblue;
+}
+
+.text {
+    width: 300px;
+    border: 1px solid;
+
+}
+
+.mainPhoto {
+    width: 300px;
+    height: 400px;
+    border: 1px solid;
+}
+
+.mainPhoto img{
+    width: 300px;
+    height: 400px;
+}
+
