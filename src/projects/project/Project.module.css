@@ -1,7 +1,6 @@
 .project{
     width: 300px;
     background-color: darkslategray;
-    min-height: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,9 +8,26 @@
 }
 
 .preview{
+    display: flex;
     width: 100%;
     height: 300px;
     background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    display: flex;
+    background-color: darkgray;
+    width: 50%;
+    height: 15%;
+    align-items: center;
+    justify-content: center;
+}
+
+.description{
+    box-sizing: border-box;
+    padding: 20px;
 }
 
 @media only screen and (max-width: 750px) {

@@ -1,5 +1,5 @@
 .projectsBlock {
-    height: 100vh;
+    min-height: 100vh;
     background-color: burlywood;
 }
 
@@ -10,6 +10,7 @@
 }
 
 .title{
+    background-color: darkslategrey;
 }
 
 .projects{

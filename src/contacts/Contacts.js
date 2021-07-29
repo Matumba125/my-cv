@@ -6,7 +6,7 @@ function Contacts() {
     return (
         <div className={style.mainBlock}>
             <div className={`${styleContainer.container} ${style.container}`}>
-                <h2>Contacts</h2>
+                <h2 className={style.title}>Contacts</h2>
                 <form className={style.form}>
                     <input/>
                     <input/>

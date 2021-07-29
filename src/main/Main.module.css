@@ -20,3 +20,16 @@
     height: 400px;
 }
 
+@media only screen and (max-width: 750px) {
+    .text{
+        width: 100%;
+    }
+    .mainPhoto{
+        width: 100%;
+        height: 300px;
+    }
+    .mainPhoto img{
+        width: 100%;
+        height: 100%;
+    }
+}
