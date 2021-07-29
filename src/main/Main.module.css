@@ -11,13 +11,13 @@
 
 .mainPhoto {
     width: 300px;
-    height: 400px;
+    height: 375px;
     border: 1px solid;
 }
 
 .mainPhoto img{
-    width: 300px;
-    height: 400px;
+    width: 100%;
+    height: 100%;
 }
 
 @media only screen and (max-width: 750px) {
@@ -26,10 +26,6 @@
     }
     .mainPhoto{
         width: 100%;
-        height: 300px;
-    }
-    .mainPhoto img{
-        width: 100%;
-        height: 100%;
+        height: 350px;
     }
 }
