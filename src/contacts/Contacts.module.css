@@ -1,46 +1,73 @@
-.mainBlock {
-    height: 100vh;
-    background-color: cornflowerblue;
+.mainBlock{
+    background-image: url("/src/common/img/contactsBack.jpg");
+    background-position: center;
+    background-repeat:no-repeat ;
 }
 
-.container{
+
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
 }
 
-.title{
-    background-color: darkslategrey;
-}
-
-.form{
+.form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    border: 1px solid;
+    justify-content: space-around;
     width: 60%;
     height: 400px;
+    z-index: 1;
 }
 
-.form input{
+.form div{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
     width: 100%;
-    height: 10%;
 }
 
-.form textarea{
+.form input, .form textarea  {
+    border: none;
+    letter-spacing: 2px;
+    color: #eee;
+    background: rgba(139, 145, 150, 0.12);
     width: 100%;
-    height: 60%;
+    position: relative;
+    height: auto;
+    padding: 15px;
+    box-shadow: none;
+    font-family: "Raleway", sans-serif;
 }
 
-.container button{
-    width: 30%;
-    height: 3%;
+.form textarea {
+    resize: none;
+    height: 150px;
 }
 
-@media only screen and (max-width: 568px) {
-    .container{
-        justify-content: space-around;
+.form button {
+    width: 100%;
+    color: #fff;
+    border: 0.5px solid #fff;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    padding: 15px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    background: transparent;
+    opacity: 0.65;
+}
+
+.form button:hover{
+    background: #f7465b;
+    color: #fff;
+    border: 0.5px solid #f7465b;
+}
+
+@media screen and (max-width: 800px){
+    .form{
+        width: 95%;
     }
 }

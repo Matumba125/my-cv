@@ -1,20 +1,29 @@
 import React from "react";
 import style from "./Contacts.module.css"
 import styleContainer from "../common/styles/Container.module.css"
+import SectionHeader from "../common/setionHeader/SectionHeader";
 
 function Contacts() {
     return (
-        <div className={style.mainBlock}>
+        <section className={` ${style.mainBlock} ${style.section}`} >
             <div className={`${styleContainer.container} ${style.container}`}>
-                <h2 className={style.title}>Contacts</h2>
+                <SectionHeader header={'Contacts'} color={'white'}/>
                 <form className={style.form}>
-                    <input/>
-                    <input/>
-                    <textarea name="text"></textarea>
+                    <div>
+                        <input placeholder={'Your Name'}/>
+                    </div>
+                    <div>
+                        <input placeholder={'Your E-mail'}/>
+                    </div>
+                    <div>
+                        <textarea name="text" placeholder={'Type your message'}></textarea>
+                    </div>
+                    <div>
+                        <button type={'submit'}>Send Message</button>
+                    </div>
                 </form>
-                <button>Send</button>
             </div>
-        </div>
+        </section>
     )
 }
 
