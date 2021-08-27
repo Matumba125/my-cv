@@ -1,13 +1,13 @@
 import React from "react";
-import style from "./Skills.module.css"
-import styleContainer from "../common/styles/Container.module.css"
+import style from "./Skills.module.scss"
+import styleContainer from "../common/styles/Container.module.scss"
 import Skill from "./skill/Skill";
 import SectionHeader from "../common/setionHeader/SectionHeader";
 
 
 function Skills() {
     return (
-        <section>
+        <section id={'skills'}>
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                 <SectionHeader header={'My Skills'}/>
                 <div className={style.skills}>

@@ -1,0 +1,45 @@
+@import "src/common/styles/sass/variables";
+
+.header {
+  position: relative;
+  min-height: 1px;
+  padding: 0 15px;
+  float: left;
+  margin-bottom: 60px;
+  z-index: 1;
+
+  .title {
+    font-size: 30px;
+  }
+
+  .whiteTitle {
+    font-size: 30px;
+    color: $headerReverseTextColor;
+  }
+
+  .separator {
+    position: relative;
+    width: 70px;
+    height: 3px;
+    background: $primaryColor;
+    margin: 10px auto;
+  }
+
+}
+
+.itemHeader {
+
+  .itemTitle {
+    margin: 0;
+  }
+
+  .itemSeparator {
+    position: relative;
+    width: 70px;
+    height: 3px;
+    background: $primaryColor;
+    margin: 10px 0;
+  }
+}
+
+

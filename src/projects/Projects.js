@@ -1,6 +1,6 @@
 import React from "react";
-import style from "./Projects.module.css"
-import styleContainer from "../common/styles/Container.module.css"
+import style from "./Projects.module.scss"
+import styleContainer from "../common/styles/Container.module.scss"
 import Project from "./project/Project";
 import SectionHeader from "../common/setionHeader/SectionHeader";
 import socialNetworkPreview from "../common/img/socialNetwork.jpg";
@@ -17,20 +17,19 @@ function Projects() {
     }
 
     return (
-        <section>
+        <section id={'projects'}>
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
                 <SectionHeader header={'My Projects'}/>
                 <div className={style.projects}>
                     <Project
                         style={socialNetwork}
                         projectName={'Social Network'}
-                        description={'network'}
+                        description={'Developers social network. Many features still in progress. But you can use base functions of any social network'}
                         projectLink={'https://matumba125.github.io/social-network/'}/>
                     <Project
                         style={todoList}
                         projectName={'Todolist'}
-                        description={'Complex project that using React-hooks, redux and axios.' +
-                        'It also allows loginization'}
+                        description={'Complex project that using React-hooks, Redux, Axios and Rest API'}
                         projectLink={'https://matumba125.github.io/todolist/'}/>
 
                 </div>

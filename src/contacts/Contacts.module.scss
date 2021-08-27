@@ -1,22 +1,15 @@
+@import "src/common/styles/sass/mixins";
+
 .mainBlock{
-    background-image: url("/src/common/img/contactsBack.jpg");
-    background-position: center;
-    background-repeat:no-repeat ;
 }
 
 
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+    @include columnFlex(space-around);
 }
 
 .form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+    @include columnFlex(space-around);
     width: 60%;
     height: 400px;
     z-index: 1;

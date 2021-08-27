@@ -1,0 +1,58 @@
+@import "src/common/styles/sass/variables";
+@import "src/common/styles/sass/mixins";
+
+
+.project {
+  width: 450px;
+  @include columnFlex(none);
+  margin-bottom: 20px;
+
+  .preview {
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+  }
+
+  .previewWrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.5;
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    text-decoration: none;
+
+    &::before {
+      position: absolute;
+      content: '';
+      background-color: black;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: 0.6;
+    }
+
+    .header {
+      position: relative;
+      color: $headerReverseTextColor;
+      z-index: 1000;
+    }
+  }
+
+  .description {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 5px;
+  }
+}
+
+
+

@@ -1,3 +1,6 @@
+@import "src/common/styles/sass/variables";
+
+
 .App {
 }
 
@@ -5,7 +8,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway", sans-serif;
     font-weight: 500;
     text-transform: uppercase;
-    color: #333;
+    color:$headerColor ;
     margin-top: 0;
 }
 
@@ -16,6 +19,6 @@ section {
 span{
     font-family: "Open Sans", sans-serif;
     line-height: 24px;
-    color: #777;
+    color: $textColor;
     margin: 0 0 10px;
 }

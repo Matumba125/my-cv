@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import style from "./Project.module.css"
+import style from "./Project.module.scss"
 import SectionHeader from "../../common/setionHeader/SectionHeader";
 
 function Project(props) {
@@ -9,22 +9,16 @@ function Project(props) {
     return (
         <div className={style.project}>
             <div className={style.description}>
-                {focused ?
-                    <a href={props.projectLink}
-                       className={style.previewWrapper}
-                       style={props.style}
-                       onMouseOut={() => setFocused(false)}
-                    >
-                        <h4>Check this out</h4>
-                    </a>:
-                    <a
-                        href={props.projectLink}
-                        className={style.preview}
-                        style={props.style}
-                        onMouseOver={() => setFocused(true)}
-                    >
-                    </a>
-                }
+
+                <a href={props.projectLink}
+                   className={focused ? style.previewWrapper : style.preview}
+                   style={props.style}
+                   onMouseOut={() => setFocused(false)}
+                   onMouseOver={() => setFocused(true)}
+                >
+                    {focused ? <h4 className={style.header}>Check this out</h4> : ''}
+                </a>
+
                 <SectionHeader header={props.projectName} itemHeader={true}/>
                 <span>
                 {props.description}
