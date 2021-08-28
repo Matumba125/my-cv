@@ -1,5 +1,34 @@
 @import "src/common/styles/sass/variables";
 
+.headerWithoutMargin {
+
+  position: relative;
+  min-height: 1px;
+  padding: 0 15px;
+  float: left;
+  margin: 0;
+  z-index: 1;
+
+  .title {
+    font-size: 30px;
+  }
+
+  .whiteTitle {
+    font-size: 30px;
+    color: $headerReverseTextColor;
+  }
+
+  .separator {
+    position: relative;
+    width: 70px;
+    height: 3px;
+    background: $primaryColor;
+    margin: 10px auto;
+  }
+
+
+}
+
 .header {
   position: relative;
   min-height: 1px;

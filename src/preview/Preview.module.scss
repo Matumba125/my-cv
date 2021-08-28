@@ -1,0 +1,89 @@
+@import "src/common/styles/sass/mixins";
+
+.container {
+  height: 100%;
+  width: 100%;
+  @include columnFlex(center);
+  text-align: center;
+
+  h1 {
+    font-size: 5.5em;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 1;
+    margin: 0px auto;
+    color: #fff;
+  }
+
+  p {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #fff;
+    letter-spacing: 2px;
+    margin: 25px auto;
+
+    .dot {
+      background: #f7465b;
+      display: inline-block;
+      width: 6px;
+      height: 6px;
+      margin: 4px 20px;
+      -webkit-transform: rotate(
+                      45deg
+      );
+      -ms-transform: rotate(45deg);
+      transform: rotate(
+                      45deg
+      );
+    }
+  }
+
+  .btnNav {
+    @media screen and (max-width: 750px){
+      @include columnFlex(space-around);
+    }
+
+    .works {
+      text-decoration: none;
+      width: 150px;
+      height: 45px;
+      line-height: 45px;
+      margin: 10px;
+      color: #fff;
+      background: #f7465b;
+      font-family: "Raleway", sans-serif;
+      font-weight: 500;
+      border-radius: 0px;
+      padding: 12px 25px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+
+      :hover {
+        background: transparent;
+      }
+    }
+
+    .hire {
+      text-decoration: none;
+      width: 150px;
+      height: 45px;
+      line-height: 45px;
+      margin: 10px;
+      color: #fff;
+      border: 1px solid #f7465b;
+      font-family: "Raleway", sans-serif;
+      font-weight: 500;
+      border-radius: 0px;
+      padding: 12px 25px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      background: transparent;
+      :hover{
+        background: #f7465b;
+      }
+    }
+  }
+}

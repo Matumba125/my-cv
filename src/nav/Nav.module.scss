@@ -1,6 +1,29 @@
-.nav{
-    display: flex;
-    width: 300px;
-    justify-content: space-between;
-    border: 1px solid;
+@import "src/common/styles/sass/variables";
+
+.nav {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  margin-right: 300px;
+  @media screen and (max-width: 750px) {
+    margin: 0;
+  }
+
+  .navBlock {
+    width: 100px;
+    height: 100%;
+    :hover{
+    color: $primaryColor;
+    }
+    a {
+      display:table-cell!important;
+      vertical-align:middle;
+      text-align: center;
+      text-decoration: none;
+      color: $textColor;
+      height: 60px;
+      width: 100px;
+
+    }
+  }
 }

@@ -5,11 +5,13 @@ import Skills from "./skills/Skills";
 import Projects from "./projects/Projects";
 import Contacts from "./contacts/Contacts";
 import Footer from "./footer/Footer";
+import Preview from "./preview/Preview";
 
 function App() {
     return (
         <div className="App">
             <Header/>
+            <Preview/>
             <Main/>
             <Skills/>
             <Projects/>
