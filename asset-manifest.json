@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my-cv/static/css/main.7fb4a975.chunk.css",
+    "main.css": "/my-cv/static/css/main.cce0f760.chunk.css",
     "main.js": "/my-cv/static/js/main.4f1ba1a4.chunk.js",
     "main.js.map": "/my-cv/static/js/main.4f1ba1a4.chunk.js.map",
     "runtime-main.js": "/my-cv/static/js/runtime-main.6239751b.js",
@@ -10,7 +10,7 @@
     "static/js/3.25df5523.chunk.js": "/my-cv/static/js/3.25df5523.chunk.js",
     "static/js/3.25df5523.chunk.js.map": "/my-cv/static/js/3.25df5523.chunk.js.map",
     "index.html": "/my-cv/index.html",
-    "static/css/main.7fb4a975.chunk.css.map": "/my-cv/static/css/main.7fb4a975.chunk.css.map",
+    "static/css/main.cce0f760.chunk.css.map": "/my-cv/static/css/main.cce0f760.chunk.css.map",
     "static/js/2.64ba2389.chunk.js.LICENSE.txt": "/my-cv/static/js/2.64ba2389.chunk.js.LICENSE.txt",
     "static/media/avatar.7a40ad83.jpg": "/my-cv/static/media/avatar.7a40ad83.jpg",
     "static/media/contactsBack.ef9be3b2.jpg": "/my-cv/static/media/contactsBack.ef9be3b2.jpg",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.6239751b.js",
     "static/js/2.64ba2389.chunk.js",
-    "static/css/main.7fb4a975.chunk.css",
+    "static/css/main.cce0f760.chunk.css",
     "static/js/main.4f1ba1a4.chunk.js"
   ]
 }
