@@ -12,8 +12,11 @@
   .navBlock {
     width: 100px;
     height: 100%;
-    :hover{
+    &:hover{
     color: $primaryColor;
+    }
+    @media screen and (max-width: 750px){
+      width: 60px;
     }
     a {
       display:table-cell!important;
@@ -23,7 +26,9 @@
       color: $textColor;
       height: 60px;
       width: 100px;
-
+      @media screen and (max-width: 750px){
+        width: 60px;
+      }
     }
   }
 }
