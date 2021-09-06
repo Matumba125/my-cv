@@ -11,7 +11,7 @@ const SectionHeader = (props) => {
                 <div className={style.itemSeparator}></div>
             </div>
             :
-            <div className={props.withoutMargin ?style.headerWithoutMargin : style.header} >
+            <div className={props.withoutMargin ? style.headerWithoutMargin : style.header}>
                 <h2 className={props.color === 'white' ? style.whiteTitle : style.title}>{props.header}</h2>
                 <div className={style.separator}></div>
             </div>

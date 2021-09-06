@@ -1,66 +1,66 @@
 @import "src/common/styles/sass/mixins";
 
-.mainBlock{
+.mainBlock {
 }
 
 
 .container {
-    @include columnFlex(space-around);
+  @include columnFlex(space-around);
 }
 
 .form {
-    @include columnFlex(space-around);
-    width: 60%;
-    height: 400px;
-    z-index: 1;
+  @include columnFlex(space-around);
+  width: 60%;
+  height: 400px;
+  z-index: 1;
 }
 
-.form div{
-    display: flex;
-    justify-content: center;
-    box-sizing: border-box;
-    width: 100%;
+.form div {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 100%;
 }
 
-.form input, .form textarea  {
-    border: none;
-    letter-spacing: 2px;
-    color: #eee;
-    background: rgba(139, 145, 150, 0.12);
-    width: 100%;
-    position: relative;
-    height: auto;
-    padding: 15px;
-    box-shadow: none;
-    font-family: "Raleway", sans-serif;
+.form input, .form textarea {
+  border: none;
+  letter-spacing: 2px;
+  color: #eee;
+  background: rgba(139, 145, 150, 0.12);
+  width: 100%;
+  position: relative;
+  height: auto;
+  padding: 15px;
+  box-shadow: none;
+  font-family: "Raleway", sans-serif;
 }
 
 .form textarea {
-    resize: none;
-    height: 150px;
+  resize: none;
+  height: 150px;
 }
 
 .form button {
-    width: 100%;
-    color: #fff;
-    border: 0.5px solid #fff;
-    font-family: "Raleway", sans-serif;
-    font-weight: 500;
-    padding: 15px;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    background: transparent;
-    opacity: 0.65;
+  width: 100%;
+  color: #fff;
+  border: 0.5px solid #fff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  padding: 15px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  background: transparent;
+  opacity: 0.65;
 }
 
-.form button:hover{
-    background: #f7465b;
-    color: #fff;
-    border: 0.5px solid #f7465b;
+.form button:hover {
+  background: #f7465b;
+  color: #fff;
+  border: 0.5px solid #f7465b;
 }
 
-@media screen and (max-width: 800px){
-    .form{
-        width: 95%;
-    }
+@media screen and (max-width: 800px) {
+  .form {
+    width: 95%;
+  }
 }

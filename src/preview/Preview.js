@@ -8,6 +8,7 @@ const Preview = () => {
         backgroundImage: `url(${background})`,
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover',
         height: '100vh',
     }
 

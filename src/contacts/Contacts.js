@@ -9,8 +9,10 @@ function Contacts() {
 
     const mainStyle = {
         backgroundImage: `url(${background})`,
-    backgroundPosition: 'center',
-    backgroundRepeat: 'no-repeat' ,
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover',
+
     }
 
     return (

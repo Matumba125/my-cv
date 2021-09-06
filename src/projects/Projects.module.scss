@@ -1,14 +1,15 @@
 @import "src/common/styles/sass/mixins";
 
-.projectsContainer{
-    @include columnFlex(none);
-    .projects{
-        display: flex;
-        width: 100%;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        align-items: flex-start;
-    }
+.projectsContainer {
+  @include columnFlex(none);
+
+  .projects {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
 }
 
 

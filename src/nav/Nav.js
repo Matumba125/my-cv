@@ -1,9 +1,9 @@
 import React from "react";
 import style from "./Nav.module.scss"
 
-function Nav(){
+function Nav() {
 
-    return(
+    return (
         <div className={style.nav}>
             <div className={style.navBlock}>
                 <a href="#home">Home</a>
@@ -17,7 +17,7 @@ function Nav(){
             <div className={style.navBlock}>
                 <a href="#projects">Projects</a>
             </div>
-            <div className={style.navBlock}>
+            <div className={style.navBlock} style={{marginLeft:'15px'}}>
                 <a href="#contacts">Contacts</a>
             </div>
         </div>

@@ -12,21 +12,24 @@
   .navBlock {
     width: 100px;
     height: 100%;
-    &:hover{
-    color: $primaryColor;
+
+    &:hover {
+      color: $primaryColor;
     }
-    @media screen and (max-width: 750px){
+
+    @media screen and (max-width: 750px) {
       width: 60px;
     }
+
     a {
-      display:table-cell!important;
-      vertical-align:middle;
+      display: table-cell !important;
+      vertical-align: middle;
       text-align: center;
       text-decoration: none;
       color: $textColor;
       height: 60px;
       width: 100px;
-      @media screen and (max-width: 750px){
+      @media screen and (max-width: 750px) {
         width: 60px;
       }
     }
