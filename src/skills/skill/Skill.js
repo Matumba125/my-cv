@@ -9,7 +9,7 @@ function Skill(props) {
                 {props.icon ?
                     <FontAwesomeIcon icon={props.icon}/>
                     :
-                    <img src={props.svgIcon}/>
+                    <img src={props.svgIcon} alt={'skillIcon'}/>
                 }
             </div>
             <h3>{props.skillName}</h3>

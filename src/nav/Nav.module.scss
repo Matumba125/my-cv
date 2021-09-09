@@ -1,36 +1,53 @@
 @import "src/common/styles/sass/variables";
 
 .nav {
-  display: flex;
   height: 100%;
-  justify-content: center;
-  margin-right: 300px;
+  min-width: 400px;
+  margin: 0 auto;
+  padding: 0;
   @media screen and (max-width: 750px) {
-    margin: 0;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    min-width: 0;
   }
 
-  .navBlock {
-    width: 100px;
+  ul {
     height: 100%;
-
-    &:hover {
-      color: $primaryColor;
+    margin: 0;
+    padding: 3px;
+    box-sizing: border-box;
+    padding-inline-start: 0;
+    display: flex;
+    justify-content: space-between;
+    @media screen and (max-width: 750px){
+      width: 100%;
     }
 
-    @media screen and (max-width: 750px) {
-      width: 60px;
-    }
-
-    a {
-      display: table-cell !important;
-      vertical-align: middle;
+    .navBlock {
+      height: 100%;
+      display: inline;
+      float: left;
       text-align: center;
-      text-decoration: none;
-      color: $textColor;
-      height: 60px;
-      width: 100px;
+
       @media screen and (max-width: 750px) {
-        width: 60px;
+      }
+
+      a {
+        text-decoration: none;
+        color: $textColor;
+        position: relative;
+        top: 40%;
+
+        &:hover::before {
+          position: absolute;
+          content: '';
+          width: 100%;
+          height: 2px;
+          background: $primaryColor;
+          top: 100%;
+        }
       }
     }
   }

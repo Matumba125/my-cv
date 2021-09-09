@@ -4,7 +4,8 @@ import styleContainer from "../common/styles/Container.module.scss"
 import Project from "./project/Project";
 import SectionHeader from "../common/setionHeader/SectionHeader";
 import socialNetworkPreview from "../common/img/socialNetwork.jpg";
-import todolistPreview from "../common/img/todolistPrewiew.png";
+import runningAppPreview from "../common/img/runningApp.jpg";
+import todolistPreview from "../common/img/todolistPreview.png";
 
 
 function Projects() {
@@ -14,6 +15,9 @@ function Projects() {
     }
     const todoList = {
         backgroundImage: `url(${todolistPreview})`,
+    }
+    const runningApp = {
+        backgroundImage: `url(${runningAppPreview})`,
     }
 
     return (
@@ -31,6 +35,11 @@ function Projects() {
                         projectName={'Todolist'}
                         description={'Complex project that using React-hooks, Redux, Axios and Rest API'}
                         projectLink={'https://matumba125.github.io/todolist/'}/>
+                    <Project
+                        style={runningApp}
+                        projectName={'Running App'}
+                        description={'SPA for jog tracking. Allows adding and updating jogs'}
+                        projectLink={'https://matumba125.github.io/running_app_test_task/'}/>
 
                 </div>
             </div>

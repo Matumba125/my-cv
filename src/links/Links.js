@@ -9,16 +9,16 @@ const Links = () => {
         <div className={style.linksContainer}>
             <h4>You can find me here:</h4>
             <div className={style.links}>
-                <a href="https://github.com/matumba125/" target="_blank">
+                <a href="https://github.com/matumba125/" >
                     <FontAwesomeIcon icon={faGithub}/>
                 </a>
-                <a href="mailto:nbenza5@gmail.com" target="_blank">
+                <a href="mailto:nbenza5@gmail.com">
                     <FontAwesomeIcon icon={faEnvelope}/>
                 </a>
-                <a href="https://t.me/matumba_l/" target="_blank">
+                <a href="https://t.me/matumba_l/" >
                     <FontAwesomeIcon icon={faTelegram}/>
                 </a>
-                <a href="https://www.linkedin.com/in/nick-benza-5b81ab21a/" target="_blank">
+                <a href="https://www.linkedin.com/in/nick-benza-5b81ab21a/">
                     <FontAwesomeIcon icon={faLinkedin}/>
                 </a>
             </div>

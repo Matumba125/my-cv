@@ -17,12 +17,12 @@ const Preview = () => {
         <section id={'home'} style={mainStyle}>
             <div className={style.container}>
                 <h1>I'm Nikita Benza</h1>
-                <p>
-                    Creative
+                <p className={style.paragraph}>
+                    <span>Creative</span>
                     <span className={style.dot}></span>
-                    Developer
+                    <span>Developer</span>
                     <span className={style.dot}></span>
-                    Engeneer
+                    <span>Engeneer</span>
                 </p>
                 <div className={style.btnNav}>
                     <a href={'#projects'} className={style.works}>My Works</a>
