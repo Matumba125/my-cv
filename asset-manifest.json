@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/my-cv/static/css/main.009f334f.chunk.css",
-    "main.js": "/my-cv/static/js/main.037d3685.chunk.js",
-    "main.js.map": "/my-cv/static/js/main.037d3685.chunk.js.map",
-    "runtime-main.js": "/my-cv/static/js/runtime-main.6239751b.js",
-    "runtime-main.js.map": "/my-cv/static/js/runtime-main.6239751b.js.map",
-    "static/js/2.3fe43102.chunk.js": "/my-cv/static/js/2.3fe43102.chunk.js",
-    "static/js/2.3fe43102.chunk.js.map": "/my-cv/static/js/2.3fe43102.chunk.js.map",
-    "static/js/3.25df5523.chunk.js": "/my-cv/static/js/3.25df5523.chunk.js",
-    "static/js/3.25df5523.chunk.js.map": "/my-cv/static/js/3.25df5523.chunk.js.map",
+    "main.css": "/my-cv/static/css/main.a69e3e64.chunk.css",
+    "main.js": "/my-cv/static/js/main.aaae0209.chunk.js",
+    "main.js.map": "/my-cv/static/js/main.aaae0209.chunk.js.map",
+    "runtime-main.js": "/my-cv/static/js/runtime-main.f9c90960.js",
+    "runtime-main.js.map": "/my-cv/static/js/runtime-main.f9c90960.js.map",
+    "static/js/2.df9cc645.chunk.js": "/my-cv/static/js/2.df9cc645.chunk.js",
+    "static/js/2.df9cc645.chunk.js.map": "/my-cv/static/js/2.df9cc645.chunk.js.map",
+    "static/js/3.7566636b.chunk.js": "/my-cv/static/js/3.7566636b.chunk.js",
+    "static/js/3.7566636b.chunk.js.map": "/my-cv/static/js/3.7566636b.chunk.js.map",
     "index.html": "/my-cv/index.html",
-    "static/css/main.009f334f.chunk.css.map": "/my-cv/static/css/main.009f334f.chunk.css.map",
-    "static/js/2.3fe43102.chunk.js.LICENSE.txt": "/my-cv/static/js/2.3fe43102.chunk.js.LICENSE.txt",
+    "static/css/main.a69e3e64.chunk.css.map": "/my-cv/static/css/main.a69e3e64.chunk.css.map",
+    "static/js/2.df9cc645.chunk.js.LICENSE.txt": "/my-cv/static/js/2.df9cc645.chunk.js.LICENSE.txt",
     "static/media/avatar.7a40ad83.jpg": "/my-cv/static/media/avatar.7a40ad83.jpg",
-    "static/media/cardsApp.82278955.jpg": "/my-cv/static/media/cardsApp.82278955.jpg",
+    "static/media/cardsApp.7f400927.jpg": "/my-cv/static/media/cardsApp.7f400927.jpg",
     "static/media/contactsBack.ef9be3b2.jpg": "/my-cv/static/media/contactsBack.ef9be3b2.jpg",
     "static/media/jest_icon.2608d25a.svg": "/my-cv/static/media/jest_icon.2608d25a.svg",
     "static/media/previewBack.45d82e75.jpg": "/my-cv/static/media/previewBack.45d82e75.jpg",
@@ -27,9 +27,9 @@
     "static/media/typescript_icon.6ae5823e.svg": "/my-cv/static/media/typescript_icon.6ae5823e.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6239751b.js",
-    "static/js/2.3fe43102.chunk.js",
-    "static/css/main.009f334f.chunk.css",
-    "static/js/main.037d3685.chunk.js"
+    "static/js/runtime-main.f9c90960.js",
+    "static/js/2.df9cc645.chunk.js",
+    "static/css/main.a69e3e64.chunk.css",
+    "static/js/main.aaae0209.chunk.js"
   ]
 }
