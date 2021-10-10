@@ -10,6 +10,7 @@ import background from "../common/img/skillsBack.jpg";
 import restSvg from "../common/img/icons/rest-api_icon.svg";
 import jestSvg from "../common/img/icons/jest_icon.svg";
 import storybookSvg from "../common/img/icons/storybook_icon.svg";
+import Fade from "react-reveal/Fade";
 
 function Skills() {
 
@@ -23,6 +24,7 @@ function Skills() {
     return (
         <section id={'skills'} style={mainStyle}>
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
+                <Fade bottom>
                 <SectionHeader header={'My Skills'} color={'white'}/>
                 <div className={style.skills}>
                     <Skill skillName={'React'} icon={faReact}/>
@@ -36,6 +38,7 @@ function Skills() {
                     <Skill skillName={'Storybook'} svgIcon={storybookSvg}/>
                     <Skill skillName={'Git'} icon={faGitAlt}/>
                 </div>
+                </Fade>
             </div>
         </section>
     )

@@ -16,7 +16,7 @@ function Project(props) {
                    onMouseOut={() => setFocused(false)}
                    onMouseOver={() => setFocused(true)}
                 >
-                    {focused ? <h4 className={style.header}>Check this out</h4> : ''}
+                    {focused ? <h4 className={style.header}>View</h4> : ''}
                 </a>
 
                 <SectionHeader header={props.projectName} itemHeader={true}/>

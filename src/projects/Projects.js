@@ -7,6 +7,7 @@ import socialNetworkPreview from "../common/img/socialNetwork.jpg";
 import runningAppPreview from "../common/img/runningApp.jpg";
 import todolistPreview from "../common/img/todolistPreview.png";
 import cardsPreview from "../common/img/cardsApp.jpg";
+import Fade from "react-reveal/Fade";
 
 
 function Projects() {
@@ -27,30 +28,32 @@ function Projects() {
     return (
         <section id={'projects'}>
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
-                <SectionHeader header={'My Projects'}/>
-                <div className={style.projects}>
-                    <Project
-                        style={socialNetwork}
-                        projectName={'Social Network'}
-                        description={'Developers social network. Many features still in progress. But you can use base functions of any social network'}
-                        projectLink={'https://matumba125.github.io/social-network/'}/>
-                    <Project
-                        style={todoList}
-                        projectName={'Todolist'}
-                        description={'Complex project that using React-hooks, Redux, Axios and Rest API'}
-                        projectLink={'https://matumba125.github.io/todolist/'}/>
-                    <Project
-                        style={runningApp}
-                        projectName={'Running App'}
-                        description={'SPA for jog tracking. Allows adding and updating jogs'}
-                        projectLink={'https://matumba125.github.io/running_app_test_task/'}/>
-                    <Project
-                        style={cardsApp}
-                        projectName={'Learning App'}
-                        description={'SPA for learning. Allows creating and editing your own card packs and cards. Using simple smart random for learning. Created by group of developers'}
-                        projectLink={'https://matumba125.github.io/friday/'}/>
+                <Fade bottom>
+                    <SectionHeader header={'My Projects'}/>
+                    <div className={style.projects}>
+                        <Project
+                            style={socialNetwork}
+                            projectName={'Social Network'}
+                            description={'Developers social network. Many features still in progress. But you can use base functions of any social network'}
+                            projectLink={'https://matumba125.github.io/social-network/'}/>
+                        <Project
+                            style={todoList}
+                            projectName={'Todolist'}
+                            description={'Complex project that using React-hooks, Redux, Axios and Rest API'}
+                            projectLink={'https://matumba125.github.io/todolist/'}/>
+                        <Project
+                            style={runningApp}
+                            projectName={'Running App'}
+                            description={'SPA for jog tracking. Allows adding and updating jogs'}
+                            projectLink={'https://matumba125.github.io/running_app_test_task/'}/>
+                        <Project
+                            style={cardsApp}
+                            projectName={'Learning App'}
+                            description={'SPA for learning. Allows creating and editing your own card packs and cards. Using simple smart random for learning. Created by group of developers'}
+                            projectLink={'https://matumba125.github.io/learningApp/'}/>
 
-                </div>
+                    </div>
+                </Fade>
             </div>
         </section>
     )

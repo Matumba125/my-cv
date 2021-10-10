@@ -5,10 +5,13 @@
 
   .projects {
     display: flex;
-    width: 100%;
+    width: 70%;
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: flex-start;
+    @media screen and(max-width: 760px) {
+      width: 100%;
+    }
   }
 }
 
