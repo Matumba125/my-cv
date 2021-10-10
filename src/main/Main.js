@@ -26,7 +26,7 @@ function Main() {
                         <p>Location: Minsk, Belarus</p>
                         <p>E-mail: nbeza5@gmail.com</p>
                         <p>Phone: +375297412510</p>
-
+                        
                     </div>
                     <div className={style.aboutMe}>
                         <SectionHeader header={'About Me'} itemHeader={true}/>

@@ -6,6 +6,7 @@ import SectionHeader from "../common/setionHeader/SectionHeader";
 import socialNetworkPreview from "../common/img/socialNetwork.jpg";
 import runningAppPreview from "../common/img/runningApp.jpg";
 import todolistPreview from "../common/img/todolistPreview.png";
+import cardsPreview from "../common/img/cardsApp.jpg";
 
 
 function Projects() {
@@ -18,6 +19,9 @@ function Projects() {
     }
     const runningApp = {
         backgroundImage: `url(${runningAppPreview})`,
+    }
+    const cardsApp = {
+        backgroundImage: `url(${cardsPreview})`,
     }
 
     return (
@@ -40,6 +44,11 @@ function Projects() {
                         projectName={'Running App'}
                         description={'SPA for jog tracking. Allows adding and updating jogs'}
                         projectLink={'https://matumba125.github.io/running_app_test_task/'}/>
+                    <Project
+                        style={cardsApp}
+                        projectName={'Learning App'}
+                        description={'SPA for learning. Allows creating and editing your own card packs and cards. Using simple smart random for learning. Created by group of developers'}
+                        projectLink={'https://matumba125.github.io/friday/'}/>
 
                 </div>
             </div>
