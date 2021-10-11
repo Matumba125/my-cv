@@ -6,12 +6,15 @@
   width: 450px;
   @include columnFlex(none);
   margin-bottom: 20px;
+  @media screen and (max-width: 450px){
+    width: 300px;
+  }
 
   .preview {
     height: 300px;
     background-position: center;
     background-size: cover;
-    width: 100%;
+    width: 90%;
   }
 
   .previewWrapper {

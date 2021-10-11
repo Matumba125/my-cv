@@ -21,7 +21,7 @@ const Preview = () => {
     return (
         <section id={'home'} style={mainStyle}>
             <div className={style.container}>
-                <Fade bottom>
+                <Fade top>
                     <h1>I'm Nikita Benza</h1>
                     <p className={style.paragraph}>
                         <span>Creative</span>

@@ -8,9 +8,9 @@ function Header() {
     document.addEventListener('scroll', ()=> {
 
             if (window.scrollY >= 400) {
-                document.getElementById("head").className=(style.header)
+                document.getElementById("head").className=(`${style.header} ${style.untransparentHeader}`)
             } else {
-                document.getElementById("head").className=(`${style.header} ${style.transparentHeader}`)
+                document.getElementById("head").className=(style.header)
             }
     });
 

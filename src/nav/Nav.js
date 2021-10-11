@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./Nav.module.scss"
-import { Link, animateScroll as scroll } from "react-scroll";
+import {Link} from "react-scroll";
 
 function Nav() {
 
@@ -49,7 +49,7 @@ function Nav() {
                         smooth={true}
                         offset={-50}
                         duration={500}
-                        >Projects</Link>
+                    >Projects</Link>
                 </li>
                 <li className={style.navBlock}>
                     <Link

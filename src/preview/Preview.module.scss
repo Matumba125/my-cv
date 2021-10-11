@@ -1,16 +1,7 @@
 @import "src/common/styles/sass/mixins";
 
-.particles{
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  opacity: 0.3;
-}
-
 .container {
-  height: 100%;
+  height: 90vh;
   width: 100%;
   @include columnFlex(center);
   text-align: center;

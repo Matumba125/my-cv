@@ -5,13 +5,14 @@
   align-items: center;
   min-height: 60px;
   width: 100%;
-  background: #333333;
+  background: transparent;
   z-index: 1030;
-  box-shadow: 0 0 15px 0px rgb(0 0 0)
+  box-shadow: none;
 }
 
-.transparentHeader{
-  background: transparent;
-  box-shadow: none;
+.untransparentHeader{
+  background: #333333;
+  box-shadow: 0 0 15px 0px rgb(0 0 0)
+
 }
 
