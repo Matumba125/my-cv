@@ -3,15 +3,15 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  height: 60px;
+  min-height: 60px;
   width: 100%;
-  background: #fff;
+  background: #333333;
   z-index: 1030;
   box-shadow: 0 0 15px 0px rgb(0 0 0)
 }
 
-@media only screen and (max-width: 750px) {
-  .header {
-    justify-content: center;
-  }
+.transparentHeader{
+  background: transparent;
+  box-shadow: none;
 }
+

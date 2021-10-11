@@ -20,8 +20,10 @@ function Contacts() {
     return (
         <section id={'contacts'} className={`${style.section}`} style={mainStyle}>
             <div className={`${styleContainer.container} ${style.container}`}>
-                <Fade bottom>
+                <Fade top>
                     <SectionHeader header={'Contacts'} color={'white'}/>
+                </Fade>
+                <Fade bottom>
                     <form className={style.form}>
                         <div>
                             <input placeholder={'Your Name'}/>
@@ -36,8 +38,8 @@ function Contacts() {
                             <button type={'submit'}>Send Message</button>
                         </div>
                     </form>
-                    <Links/>
                 </Fade>
+                <Links/>
             </div>
         </section>
     )

@@ -21,24 +21,63 @@ function Skills() {
         backgroundSize: 'cover',
     }
 
+    const skills = [
+        {
+            skill: 'React',
+            icon: faReact,
+        },
+        {
+            skill: 'Redux',
+            svg: reduxSvg
+        },
+        {
+            skill: 'TypeScript',
+            svg: tsSvg
+        },
+        {
+            skill: 'JavaScript',
+            icon: faJs,
+        },
+        {
+            skill: 'HTML5',
+            icon: faHtml5,
+        },
+        {
+            skill: 'CSS3',
+            icon: faCss3Alt,
+        },
+        {
+            skill: 'Rest API',
+            svg: restSvg,
+        },
+        {
+            skill: 'TDD - Jest',
+            svg: jestSvg,
+        },
+        {
+            skill: 'Storybook',
+            svg: storybookSvg
+        },
+        {
+            skill: 'Git',
+            icon: faGitAlt
+        }
+    ]
+
     return (
         <section id={'skills'} style={mainStyle}>
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
-                <Fade bottom>
-                <SectionHeader header={'My Skills'} color={'white'}/>
-                <div className={style.skills}>
-                    <Skill skillName={'React'} icon={faReact}/>
-                    <Skill skillName={'Redux'} svgIcon={reduxSvg}/>
-                    <Skill skillName={'TypeScript'} svgIcon={tsSvg}/>
-                    <Skill skillName={'JavaScript'} icon={faJs}/>
-                    <Skill skillName={'HTML5'} icon={faHtml5}/>
-                    <Skill skillName={'CSS3'} icon={faCss3Alt}/>
-                    <Skill skillName={'Rest API'} svgIcon={restSvg}/>
-                    <Skill skillName={'TDD - Jest'} svgIcon={jestSvg}/>
-                    <Skill skillName={'Storybook'} svgIcon={storybookSvg}/>
-                    <Skill skillName={'Git'} icon={faGitAlt}/>
-                </div>
+                <Fade top>
+                    <SectionHeader header={'My Skills'} color={'white'}/>
                 </Fade>
+
+                <div className={style.skills}>
+                        {
+                            skills.map(m =>
+                                <Fade bottom><Skill skillName={m.skill} icon={m.icon} svgIcon={m.svg}/></Fade>
+                            )
+                        }
+                    </div>
             </div>
         </section>
     )

@@ -10,15 +10,17 @@ function Main() {
     return (
         <section id={'main'} className={style.mainBlock}>
             <div className={`${styleContainer.container} ${style.aboutContainer}`}>
-                <Fade bottom>
-                    <div className={style.aboutHeader}>
+                <div className={style.aboutHeader}>
+                    <Fade top>
                         <div className={style.myPhoto}>
                             <img src={avatar} alt="avatar"/>
                         </div>
-                        <SectionHeader header={'Nikita Benza'} withoutMargin={true}/>
-                        <p>Front-end Developer</p>
-                    </div>
-                    <div className={style.aboutMain}>
+                    </Fade>
+                    <SectionHeader header={'Nikita Benza'} withoutMargin={true}/>
+                    <p>Front-end Developer</p>
+                </div>
+                <div className={style.aboutMain}>
+                    <Fade right>
                         <div className={style.personalInfo}>
                             <div className={style.header}>
                                 <h3 className={style.title}>Personal Info</h3>
@@ -31,6 +33,8 @@ function Main() {
                             <p>Phone: +375297412510</p>
 
                         </div>
+                    </Fade>
+                    <Fade left>
                         <div className={style.aboutMe}>
                             <SectionHeader header={'About Me'} itemHeader={true}/>
                             <div>
@@ -48,9 +52,9 @@ function Main() {
                                     English</p>
                             </div>
                         </div>
+                    </Fade>
 
-                    </div>
-                </Fade>
+                </div>
             </div>
         </section>
     )

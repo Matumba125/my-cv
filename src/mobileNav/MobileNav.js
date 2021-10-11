@@ -1,12 +1,27 @@
-import React from "react";
-import style from "./Nav.module.scss"
-import { Link, animateScroll as scroll } from "react-scroll";
+import React, {useState} from "react";
+import style from "./MobileNav.module.scss"
+import {Link} from "react-scroll";
+import {faTimes, faBars} from "@fortawesome/free-solid-svg-icons";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
-function Nav() {
+
+function MobileNav() {
+
+    const [openMenu, setOpenMenu] = useState(false)
+
+    const onButtonClick = () =>{
+        setOpenMenu(!openMenu)
+    }
 
     return (
-        <nav className={style.nav}>
-            <ul>
+        <nav className={style.mobileNav}>
+            <div className={!openMenu ? `${style.openMenu} ${style.showOpenMenu}` : style.openMenu} onClick={onButtonClick}>
+                <FontAwesomeIcon icon={faBars} className={style.icon}/>
+            </div>
+            <div className={openMenu ? `${style.navItems} ${style.show}`: style.navItems}>
+                <div className={style.cancel} onClick={onButtonClick}>
+                    <FontAwesomeIcon icon={faTimes} className={style.icon}/>
+                </div>
                 <li className={style.navBlock}>
                     <Link
                         activeClass={style.activeLink}
@@ -16,6 +31,7 @@ function Nav() {
                         smooth={true}
                         offset={-50}
                         duration={500}
+                        onClick={onButtonClick}
                     >Home</Link>
                 </li>
                 <li className={style.navBlock}>
@@ -27,6 +43,7 @@ function Nav() {
                         smooth={true}
                         offset={-50}
                         duration={500}
+                        onClick={onButtonClick}
                     >About</Link>
                 </li>
                 <li className={style.navBlock}>
@@ -38,6 +55,7 @@ function Nav() {
                         smooth={true}
                         offset={-50}
                         duration={500}
+                        onClick={onButtonClick}
                     >Skills</Link>
                 </li>
                 <li className={style.navBlock}>
@@ -49,7 +67,8 @@ function Nav() {
                         smooth={true}
                         offset={-50}
                         duration={500}
-                        >Projects</Link>
+                        onClick={onButtonClick}
+                    >Projects</Link>
                 </li>
                 <li className={style.navBlock}>
                     <Link
@@ -60,11 +79,12 @@ function Nav() {
                         smooth={true}
                         offset={-50}
                         duration={500}
+                        onClick={onButtonClick}
                     >Contacts</Link>
                 </li>
-            </ul>
+            </div>
         </nav>
     )
 }
 
-export default Nav;
+export default MobileNav;

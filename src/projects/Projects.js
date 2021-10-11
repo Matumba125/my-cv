@@ -28,32 +28,39 @@ function Projects() {
     return (
         <section id={'projects'}>
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
-                <Fade bottom>
+                <Fade top>
                     <SectionHeader header={'My Projects'}/>
-                    <div className={style.projects}>
+                </Fade>
+                <div className={style.projects}>
+                    <Fade left>
                         <Project
                             style={socialNetwork}
                             projectName={'Social Network'}
                             description={'Developers social network. Many features still in progress. But you can use base functions of any social network'}
                             projectLink={'https://matumba125.github.io/social-network/'}/>
+                    </Fade>
+                    <Fade right>
                         <Project
                             style={todoList}
                             projectName={'Todolist'}
                             description={'Complex project that using React-hooks, Redux, Axios and Rest API'}
                             projectLink={'https://matumba125.github.io/todolist/'}/>
+                    </Fade>
+                    <Fade left>
                         <Project
                             style={runningApp}
                             projectName={'Running App'}
                             description={'SPA for jog tracking. Allows adding and updating jogs'}
                             projectLink={'https://matumba125.github.io/running_app_test_task/'}/>
+                    </Fade>
+                    <Fade right>
                         <Project
                             style={cardsApp}
                             projectName={'Learning App'}
                             description={'SPA for learning. Allows creating and editing your own card packs and cards. Using simple smart random for learning. Created by group of developers'}
                             projectLink={'https://matumba125.github.io/learningApp/'}/>
-
-                    </div>
-                </Fade>
+                    </Fade>
+                </div>
             </div>
         </section>
     )

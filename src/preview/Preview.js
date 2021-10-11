@@ -3,17 +3,8 @@ import background from "../common/img/previewBack.jpg";
 import style from './Preview.module.scss'
 import Fade from "react-reveal/Fade";
 
-// const particlesOpt= {
-//     "particles": {
-//         "number":{
-//             "value":150,
-//             "density":{
-//                 "enable": true,
-//                 "value_area": 800
-//             }
-//         }
-//     }
-// }
+
+
 
 const Preview = () => {
 
@@ -29,7 +20,6 @@ const Preview = () => {
 
     return (
         <section id={'home'} style={mainStyle}>
-            {/*<Particles className={style.particles} params={particlesOpt}/>*/}
             <div className={style.container}>
                 <Fade bottom>
                     <h1>I'm Nikita Benza</h1>
