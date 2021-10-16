@@ -52,7 +52,7 @@ function Contacts() {
                             <div style={{color: '#eee'}}>{status}</div>
                         }
                         <div>
-                            <button type={'submit'} disabled={!status}>Send Message</button>
+                            <input className={style.button} type={'submit'} value={'Send Message'}/>
                         </div>
                     </form>
                 </Fade>
