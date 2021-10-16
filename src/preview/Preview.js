@@ -2,6 +2,7 @@ import React from 'react';
 import background from "../common/img/previewBack.jpg";
 import style from './Preview.module.scss'
 import Fade from "react-reveal/Fade";
+import {Link} from "react-scroll";
 
 
 
@@ -31,8 +32,22 @@ const Preview = () => {
                         <span>Engeneer</span>
                     </p>
                     <div className={style.btnNav}>
-                        <a href={'#projects'} className={style.works}>My Works</a>
-                        <a href={'#contacts'} className={style.hire}>Hire Me</a>
+                        <Link
+                            className={style.works}
+                            to="projects"
+                            spy={true}
+                            smooth={true}
+                            offset={-50}
+                            duration={500}
+                        >My Works</Link>
+                        <Link
+                            className={style.hire}
+                            to="contacts"
+                            spy={true}
+                            smooth={true}
+                            offset={-50}
+                            duration={500}
+                        >Hire Me</Link>
                     </div>
                 </Fade>
             </div>

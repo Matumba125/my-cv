@@ -17,18 +17,18 @@ const ModalArrow = () => {
     });
 
     return (
-        <div id={'arrow'} className={style.arrow}>
+        <Link to="home"
+              className={style.arrow}
+              id={'arrow'}
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration={500}>
             <IconButton>
-                <Link to="home"
-                      spy={true}
-                      smooth={true}
-                      offset={-50}
-                      duration={500}>
-                    <KeyboardArrowUpIcon className={style.icon}/>
-                </Link>
+                <KeyboardArrowUpIcon className={style.icon}/>
             </IconButton>
-        </div>
-);
+        </Link>
+    );
 };
 
 export default ModalArrow;
