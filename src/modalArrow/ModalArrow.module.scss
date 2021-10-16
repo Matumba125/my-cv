@@ -4,15 +4,19 @@
   width: 30px;
   height: 30px;
   z-index: 200000;
+  border-radius: 50%;
+  background-color: #f7465b;
   top: 93%;
   left: 90%;
   .icon{
-    color: #f7465b;
+    color: #eeeeee;
     width: 30px;
     height: 30px;
   }
 }
 
 .showArrow{
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
