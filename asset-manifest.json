@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/my-cv/static/css/main.69951aae.chunk.css",
-    "main.js": "/my-cv/static/js/main.0adfd6c0.chunk.js",
-    "main.js.map": "/my-cv/static/js/main.0adfd6c0.chunk.js.map",
-    "runtime-main.js": "/my-cv/static/js/runtime-main.de63a916.js",
-    "runtime-main.js.map": "/my-cv/static/js/runtime-main.de63a916.js.map",
-    "static/js/2.8b9a3232.chunk.js": "/my-cv/static/js/2.8b9a3232.chunk.js",
-    "static/js/2.8b9a3232.chunk.js.map": "/my-cv/static/js/2.8b9a3232.chunk.js.map",
-    "static/js/3.61f5b1ed.chunk.js": "/my-cv/static/js/3.61f5b1ed.chunk.js",
-    "static/js/3.61f5b1ed.chunk.js.map": "/my-cv/static/js/3.61f5b1ed.chunk.js.map",
+    "main.css": "/my-cv/static/css/main.f98018dc.chunk.css",
+    "main.js": "/my-cv/static/js/main.eb619ac8.chunk.js",
+    "main.js.map": "/my-cv/static/js/main.eb619ac8.chunk.js.map",
+    "runtime-main.js": "/my-cv/static/js/runtime-main.cadf3c6a.js",
+    "runtime-main.js.map": "/my-cv/static/js/runtime-main.cadf3c6a.js.map",
+    "static/js/2.a231c196.chunk.js": "/my-cv/static/js/2.a231c196.chunk.js",
+    "static/js/2.a231c196.chunk.js.map": "/my-cv/static/js/2.a231c196.chunk.js.map",
+    "static/js/3.5a70f703.chunk.js": "/my-cv/static/js/3.5a70f703.chunk.js",
+    "static/js/3.5a70f703.chunk.js.map": "/my-cv/static/js/3.5a70f703.chunk.js.map",
     "index.html": "/my-cv/index.html",
-    "static/css/main.69951aae.chunk.css.map": "/my-cv/static/css/main.69951aae.chunk.css.map",
-    "static/js/2.8b9a3232.chunk.js.LICENSE.txt": "/my-cv/static/js/2.8b9a3232.chunk.js.LICENSE.txt",
+    "static/css/main.f98018dc.chunk.css.map": "/my-cv/static/css/main.f98018dc.chunk.css.map",
+    "static/js/2.a231c196.chunk.js.LICENSE.txt": "/my-cv/static/js/2.a231c196.chunk.js.LICENSE.txt",
     "static/media/avatar.7a40ad83.jpg": "/my-cv/static/media/avatar.7a40ad83.jpg",
     "static/media/cardsApp.7f400927.jpg": "/my-cv/static/media/cardsApp.7f400927.jpg",
     "static/media/contactsBack.ef9be3b2.jpg": "/my-cv/static/media/contactsBack.ef9be3b2.jpg",
@@ -27,9 +27,9 @@
     "static/media/typescript_icon.6ae5823e.svg": "/my-cv/static/media/typescript_icon.6ae5823e.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.de63a916.js",
-    "static/js/2.8b9a3232.chunk.js",
-    "static/css/main.69951aae.chunk.css",
-    "static/js/main.0adfd6c0.chunk.js"
+    "static/js/runtime-main.cadf3c6a.js",
+    "static/js/2.a231c196.chunk.js",
+    "static/css/main.f98018dc.chunk.css",
+    "static/js/main.eb619ac8.chunk.js"
   ]
 }
