@@ -32,6 +32,7 @@
         color: $textColor;
         position: relative;
         top: 40%;
+        cursor: pointer;
 
         &:hover::before {
           position: absolute;
