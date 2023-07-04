@@ -1,4 +1,5 @@
 @import "src/common/styles/sass/mixins";
+@import "src/common/styles/sass/variables";
 
 .mainBlock {
 }
@@ -54,10 +55,10 @@
 }
 
 .button:hover {
-  background: #f7465b;
+  background: $primaryColor;
   cursor: pointer;
   color: #fff;
-  border: 0.5px solid #f7465b;
+  border: 0.5px solid $primaryColor;
 }
 
 @media screen and (max-width: 800px) {

@@ -4,7 +4,7 @@ import styleContainer from "../common/styles/Container.module.scss"
 import Project from "./project/Project";
 import SectionHeader from "../common/setionHeader/SectionHeader";
 import socialNetworkPreview from "../common/img/socialNetwork.jpg";
-import runningAppPreview from "../common/img/runningApp.jpg";
+import starluvPreview from "../common/img/starluv_preview.jpg";
 import todolistPreview from "../common/img/todolistPreview.png";
 import cardsPreview from "../common/img/cardsApp.jpg";
 import Fade from "react-reveal/Fade";
@@ -18,8 +18,8 @@ function Projects() {
     const todoList = {
         backgroundImage: `url(${todolistPreview})`,
     }
-    const runningApp = {
-        backgroundImage: `url(${runningAppPreview})`,
+    const starluv = {
+        backgroundImage: `url(${starluvPreview})`,
     }
     const cardsApp = {
         backgroundImage: `url(${cardsPreview})`,
@@ -48,10 +48,10 @@ function Projects() {
                     </Fade>
                     <Fade left>
                         <Project
-                            style={runningApp}
-                            projectName={'Running App'}
-                            description={'SPA for jog tracking. Allows adding and updating jogs'}
-                            projectLink={'https://matumba125.github.io/running_app_test_task/'}/>
+                            style={starluv}
+                            projectName={'Starluv'}
+                            description={'Clothing marketplace created by Starluv Team.'}
+                            projectLink={'https://starluv.ca'}/>
                     </Fade>
                     <Fade right>
                         <Project

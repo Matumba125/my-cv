@@ -10,6 +10,12 @@ import background from "../common/img/skillsBack.jpg";
 import restSvg from "../common/img/icons/rest-api_icon.svg";
 import jestSvg from "../common/img/icons/jest_icon.svg";
 import storybookSvg from "../common/img/icons/storybook_icon.svg";
+import jiraSvg from "../common/img/icons/jira_icon.svg";
+import reactQuerySvg from "../common/img/icons/react_query_icon.svg"
+import stripeSvg from "../common/img/icons/stripe_icon.svg"
+import websocketSvg from "../common/img/icons/websocket_icon.svg"
+import amplitudeSvg from "../common/img/icons/amplitude_icon.svg"
+import muiSvg from "../common/img/icons/mui_icon.svg"
 import Fade from "react-reveal/Fade";
 
 function Skills() {
@@ -47,8 +53,24 @@ function Skills() {
             icon: faCss3Alt,
         },
         {
+            skill: 'MUI',
+            svg: muiSvg,
+        },
+        {
             skill: 'Rest API',
             svg: restSvg,
+        },
+        {
+            skill: 'React Query',
+            svg: reactQuerySvg
+        },
+        {
+            skill: 'Websocket',
+            svg: websocketSvg
+        },
+        {
+            skill: 'Stripe Integration',
+            svg: stripeSvg
         },
         {
             skill: 'TDD - Jest',
@@ -61,7 +83,16 @@ function Skills() {
         {
             skill: 'Git',
             icon: faGitAlt
-        }
+        },
+        {
+            skill: 'Jira',
+            svg: jiraSvg
+        },
+        {
+            skill: 'Amplitude',
+            svg: amplitudeSvg
+        },
+
     ]
 
     return (
@@ -74,7 +105,7 @@ function Skills() {
                 <div className={style.skills}>
                         {
                             skills.map(m =>
-                                <Fade bottom><Skill skillName={m.skill} icon={m.icon} svgIcon={m.svg}/></Fade>
+                                <Fade bottom><Skill skillName={m.skill} icon={m.icon} svgIcon={m.svg} /></Fade>
                             )
                         }
                     </div>

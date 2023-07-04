@@ -7,6 +7,12 @@ import Fade from "react-reveal/Fade";
 
 
 function Main() {
+
+    function calculateAge() {
+        var ageDifMs = Date.now() - new Date(2000, 5, 30)
+        var ageDate = new Date(ageDifMs);
+        return Math.abs(ageDate.getUTCFullYear() - 1970);
+    }
     return (
         <section id={'main'} className={style.mainBlock}>
             <div className={`${styleContainer.container} ${style.aboutContainer}`}>
@@ -27,9 +33,9 @@ function Main() {
                                 <div className={style.separator}></div>
                             </div>
                             <p>Name: Nikita Benza</p>
-                            <p>Age: 21</p>
+                            <p>Age: {calculateAge()}</p>
                             <p>Location: Minsk, Belarus</p>
-                            <p>E-mail: nbeza5@gmail.com</p>
+                            <a href={'mailto:nik.benza000@gmail.com'}>E-mail: nik.benza000@gmail.com</a>
                             <p>Phone: +375297412510</p>
 
                         </div>
@@ -38,18 +44,14 @@ function Main() {
                         <div className={style.aboutMe}>
                             <SectionHeader header={'About Me'} itemHeader={true}/>
                             <div>
-                                <p>Hello, I am a person who has a strong passion for
-                                    programming.</p>
-                                <p>I have experience in creating SPA
-                                    with React/Redux/TypeScript.</p>
+                                <p>Hello, I am enthusiastic team player
+                                    focused on personal growth.</p>
+                                <p>I have experience in creating SPA based on
+                                    React/Redux/TypeScript.</p>
                                 <p>Now I am improving my skills in this direction
                                     and expanding them with new technologies.</p>
-                                <p>I'm planing to study Vue.js because my next goal
-                                    is to become a diverse Front-end Developer.
-                                    And also I have interest to Node.js.</p>
-                                <p>I spend my leisure time on Codewars or with
-                                    educational books and also improving my
-                                    English</p>
+                                <p>My next goals is to learn
+                                    Next.js and Node.js.</p>
                             </div>
                         </div>
                     </Fade>

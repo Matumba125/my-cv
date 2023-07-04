@@ -10,7 +10,7 @@ function Project(props) {
         <div className={style.project}>
             <div className={style.description}>
 
-                <a href={props.projectLink}
+                <a target={"_blank"} href={props.projectLink} rel="noreferrer"
                    className={focused ? style.previewWrapper : style.preview}
                    style={props.style}
                    onMouseOut={() => setFocused(false)}
