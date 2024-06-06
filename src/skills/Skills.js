@@ -104,8 +104,8 @@ function Skills() {
 
                 <div className={style.skills}>
                         {
-                            skills.map(m =>
-                                <Fade bottom><Skill skillName={m.skill} icon={m.icon} svgIcon={m.svg} /></Fade>
+                            skills.map((m, index) =>
+                                <Fade key={index}  bottom><Skill skillName={m.skill} icon={m.icon} svgIcon={m.svg} /></Fade>
                             )
                         }
                     </div>
