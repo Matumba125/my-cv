@@ -1,8 +1,8 @@
 import React from 'react';
 import background from "../common/img/previewBack.jpg";
 import style from './Preview.module.scss'
-import Fade from "react-reveal/Fade";
 import {Link} from "react-scroll";
+import {Fade} from "react-awesome-reveal";
 
 
 

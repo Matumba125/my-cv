@@ -4,8 +4,8 @@ import styleContainer from "../common/styles/Container.module.scss"
 import SectionHeader from "../common/setionHeader/SectionHeader";
 import Links from "../links/Links";
 import background from "../common/img/contactsBack.jpg"
-import Fade from "react-reveal/Fade"
 import emailjs from 'emailjs-com';
+import {Fade} from "react-awesome-reveal";
 
 
 function Contacts() {

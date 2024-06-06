@@ -3,7 +3,7 @@ import style from "./Links.module.scss";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faGithub, faLinkedin, faTelegram} from '@fortawesome/free-brands-svg-icons'
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
-import Fade from "react-reveal/Fade";
+import {Fade} from "react-awesome-reveal";
 
 const Links = () => {
     return (

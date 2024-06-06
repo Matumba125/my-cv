@@ -3,7 +3,7 @@ import style from "./Main.module.scss"
 import styleContainer from "../common/styles/Container.module.scss"
 import avatar from "../common/img/avatar.jpg"
 import SectionHeader from "../common/setionHeader/SectionHeader";
-import Fade from "react-reveal/Fade";
+import {Fade} from "react-awesome-reveal";
 
 
 function Main() {

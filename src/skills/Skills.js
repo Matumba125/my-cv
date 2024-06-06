@@ -16,7 +16,7 @@ import stripeSvg from "../common/img/icons/stripe_icon.svg"
 import websocketSvg from "../common/img/icons/websocket_icon.svg"
 import amplitudeSvg from "../common/img/icons/amplitude_icon.svg"
 import muiSvg from "../common/img/icons/mui_icon.svg"
-import Fade from "react-reveal/Fade";
+import {Fade} from "react-awesome-reveal";
 
 function Skills() {
 

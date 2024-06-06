@@ -7,7 +7,7 @@ import socialNetworkPreview from "../common/img/socialNetwork.jpg";
 import starluvPreview from "../common/img/starluv_preview.jpg";
 import todolistPreview from "../common/img/todolistPreview.png";
 import cardsPreview from "../common/img/cardsApp.jpg";
-import Fade from "react-reveal/Fade";
+import {Fade} from "react-awesome-reveal";
 
 
 function Projects() {
